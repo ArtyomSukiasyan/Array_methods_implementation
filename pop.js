@@ -1,10 +1,6 @@
 Array.prototype.customPop = function () {
-    const results = [];
-  
-    for (let i = 0; i < this.length; i++) {
-      results.push(cb(this[i], i, this));
-    }
-  
-    return results;
-  };
-  
+  const lastEl = this[this.length - 1];
+  this.length = this.length - 1;
+
+  return lastEl;
+};
