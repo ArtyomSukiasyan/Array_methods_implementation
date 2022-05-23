@@ -1,4 +1,4 @@
-Array.prototype.customMap = function map(cb) {
+Array.prototype.customMap = function (cb) {
   const results = [];
 
   for (let i = 0; i < this.length; i++) {
