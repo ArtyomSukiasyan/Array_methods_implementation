@@ -1,4 +1,4 @@
-Array.prototype.customSlice = function (startNum = 0, endNum = this.length) {
+Array.prototype.customFind = function (startNum = 0, endNum = this.length) {
     if (startNum < 0) {
       startNum = this.length + startNum;
     }
