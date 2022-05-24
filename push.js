@@ -5,8 +5,3 @@ Array.prototype.customPush = function () {
 
   return this.length;
 };
-
-const a = [1, 2, 3, 4];
-
-console.log(a.customPush([2, 3], 2, 3));
-console.log(a);
