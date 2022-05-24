@@ -1,4 +1,4 @@
-Array.prototype.customFind = function (startNum = 0, endNum = this.length) {
+Array.prototype.customFill = function (val, startNum = 0, endNum = this.length) {
     if (startNum < 0) {
       startNum = this.length + startNum;
     }
@@ -7,11 +7,11 @@ Array.prototype.customFind = function (startNum = 0, endNum = this.length) {
       endNum = this.length + endNum;
     }
 
-    const slicedArr = [];
+    const res = [];
     
     for (let i = startNum; i < endNum; i++) {
-      slicedArr.push(arr[i]);
+      res[i] = val;
     }
     
-    return slicedArr;
+    return res;
   }
