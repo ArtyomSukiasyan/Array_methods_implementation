@@ -1,3 +1,1 @@
-README in progress
-
-Array methods custom implementation, so far without validation
+A simple implementation of Array methods in Javascript, just to understand how everything works under the hood.
